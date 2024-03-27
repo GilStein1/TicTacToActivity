@@ -7,7 +7,8 @@
     tools:context=".GameActivity"
     android:background="@drawable/tictactoebackground"
     android:orientation="vertical"
-    android:gravity="center_horizontal">
+    android:gravity="center_horizontal"
+    android:id="@+id/lMainLayout">
 
     <ImageView
         android:id="@+id/ivWhichTurn"
@@ -17,112 +18,5 @@
         android:src="@drawable/xshape">
 
     </ImageView>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="50dp">
-
-        <ImageButton
-            android:id="@+id/btn00"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:scaleType="centerInside">
-
-        </ImageButton>
-
-        <ImageButton
-            android:id="@+id/btn01"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:scaleType="centerInside">
-
-        </ImageButton>
-
-        <ImageButton
-            android:id="@+id/btn02"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:scaleType="centerInside">
-
-        </ImageButton>
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageButton
-            android:id="@+id/btn10"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:scaleType="centerInside">
-
-        </ImageButton>
-
-        <ImageButton
-            android:id="@+id/btn11"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:scaleType="centerInside">
-
-        </ImageButton>
-
-        <ImageButton
-            android:id="@+id/btn12"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:scaleType="centerInside">
-
-        </ImageButton>
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageButton
-            android:id="@+id/btn20"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:scaleType="centerInside">
-
-        </ImageButton>
-
-        <ImageButton
-            android:id="@+id/btn21"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:scaleType="centerInside">
-
-        </ImageButton>
-
-        <ImageButton
-            android:id="@+id/btn22"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:scaleType="centerInside">
-
-        </ImageButton>
-
-    </LinearLayout>
-    <TextView
-        android:id="@+id/tvMessage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:textColor="@color/white">
-    </TextView>
-
-    <Button
-        android:id="@+id/btnBack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="back to main page"
-        android:visibility="gone">
-
-    </Button>
 
 </LinearLayout>
